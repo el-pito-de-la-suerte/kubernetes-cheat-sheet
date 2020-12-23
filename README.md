@@ -65,7 +65,9 @@
 ### ...cluster events
 
 `kubectl get events`
+### ...labels
 
+`kubectl get deployment --show-labels`
 
 ### ...configuration
 
