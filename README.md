@@ -65,9 +65,14 @@
 ### ...cluster events
 
 `kubectl get events`
+
 ### ...labels
 
 `kubectl get deployment --show-labels`
+
+## ...deployments with certain label
+
+`kubectl get deployment -l tier=frontend`
 
 ### ...configuration
 
